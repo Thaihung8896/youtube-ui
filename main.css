@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 225, 220);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 450px;
+    width: 700px;
+    box-shadow: 10px 10px 15px rgb(192, 183, 183), -10px -10px 15px white;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    left: 70%;
+    top: 30px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+    background-color: rgb(204, 211, 211);
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+li:hover {
+    box-shadow: 0 5px 8px grey;
+}
+
+li i {
+    top: 15%;
+    position: relative;
+    transition: 0.3s;
+}
+
+li i:hover {
+    color: rgb(241, 99, 106);
+}
+
+li img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px grey, -5px -5px 10px rgb(224, 223, 223);
+}
+
+.bar {
+    height: 50px;
+    width: 400px;
+    background-color: rgb(230, 225, 220);
+    box-shadow: 5px 5px 8px rgb(185, 184, 184), -5px -5px 10px white;
+    border-radius: 30px;
+}
+
+.txt {
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgb(230, 225, 220);
+    font-size: smaller;
+    word-spacing: -1px;
+    outline: none;
+    width: 300px;
+    position: fixed;
+}
+
+.Glogo {
+    height: 25px;
+    width: 25px;
+    margin-top: 12px;
+}
+
+.main-bar {
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -60%);
+}
+
+.voice {
+    height: 25px;
+    width: 20px;
+    margin-left: 300px;
+}
+
+.voice:hover{
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.icons i {
+    font-size: large;
+    color: rgb(89, 89, 90);
+}
+
+.icons li {
+    margin-right: 10px;
+  
+}
+.icons>li>i{
+  margin:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.logo {
+    margin-left: 30%;
+    margin-top: 80px;
+}
